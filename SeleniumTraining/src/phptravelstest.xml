@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="PHP Travels Test Suites" parallel="false">
+
+  <test name="A Tag Tests">
+    <classes>
+      <class name="smokeTest.loginPhpTravelsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Login Page Tests">
+    <classes>
+      <class name="smokeTest.loginTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
